@@ -11,7 +11,7 @@ import Store from "./Store";
 function App() {
   return (
     <Provider store={Store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes />
       </BrowserRouter>
     </Provider>
