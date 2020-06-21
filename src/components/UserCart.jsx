@@ -139,9 +139,10 @@ function UserBox(props) {
               <CardActionArea>
                 <CardMedia
                   style={{ height: 250 }}
-                  image={require("../assets/Images/" + "cart.png")}
+                  image={require("../assets/Images/cart.png")}
                   title="Contemplative Reptile"
                 />
+
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
                     Your cart is empty!
